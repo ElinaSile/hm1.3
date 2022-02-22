@@ -1,0 +1,77 @@
+body {
+  color: white;
+  font-family: "Inconsolata";
+  background: url(pexels-enric-cruz-lópez-6272209.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.general {
+  width: 360px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  overflow: auto;
+  margin: 20px 20px 20px 40px;
+  padding: 5px 5px 5px 5px;
+  float: left;
+  border: solid rgb(187, 228, 154);
+}
+.section5 {
+  margin-bottom: 100px;
+}
+
+li {
+  font-size: 20px;
+  text-align: left;
+}
+
+.goback {
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.button {
+  background-color: #3968e9;
+  color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 4px solid #2e0b6e;
+  padding: 10px 25px 10px 25px;
+}
+.button:hover {
+  background-color: rgb(187, 228, 154);
+  font-weight: bold;
+  color: rgb(68, 9, 204);
+  transition: all 0.5s;
+}
+/* FOOTER START */
+.footer {
+  font-size: 17px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #080808;
+  text-align: center;
+  color: white;
+}
+.footer > a:hover {
+  text-decoration: underline;
+}
+/* FOOTER END */
