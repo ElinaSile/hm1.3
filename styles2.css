@@ -1,0 +1,278 @@
+body {
+  font-family: "Inconsolata";
+  background: rgb(7, 7, 7);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* INTRO SLIDE START */
+.intro {
+  height: 47vh;
+  color: white;
+  background: url(pexels-todd-trapani.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+  opacity: 0.95;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-heading {
+  font-size: 38px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #500101;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dates {
+  color: #3bdbf7;
+  text-shadow: 2px 2px 2px #500101;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-description-1 {
+  margin-top: 110px;
+  text-shadow: 1px 1px #04034e;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.intro-description-2 {
+  text-align: center;
+  text-shadow: 1px 1px #04034e;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* INTRO SLIDE END */
+
+/* MIDDLE PART*/
+.middle-part {
+  background: linear-gradient(to top, #04b41b, black);
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* BUTTONS */
+.button-1 {
+  background-color: #3968e9;
+  color: white;
+  font-size: 19px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 4px solid #2e0b6e;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button-1:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.button-2 {
+  background-color: #3968e9;
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #2e0b6e;
+
+  padding: 2px 2px;
+}
+.button-2:hover {
+  background-color: rgb(187, 228, 154);
+  font-weight: bold;
+  color: rgb(68, 9, 204);
+  transition: all 0.5s;
+}
+
+/* LEARN MORE START */
+.learn-more {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+/* LEARN MORE END */
+
+/* FAQ START */
+.faq {
+  color: #9b355c;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.question-container {
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  color: #98da8f;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 19px;
+  color: white;
+}
+
+.highlighted-text:hover {
+  text-decoration: underline;
+}
+/* FAQ END */
+/* END of the MIDDLE PART*/
+
+/* VIDEO START */
+
+.video-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+
+  background: linear-gradient(to top, #028b3b, black);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+}
+
+.video-heading {
+  color: white;
+  font-size: 25px;
+  border: 2px solid #4166e2;
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  background: #030303;
+}
+
+.video-frame {
+  border: 0px;
+}
+/* VIDEO END */
+
+/* SOCIAL START */
+.social-container {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: right;
+  gap: 40px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.social-heading {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.fa {
+  font: FontAwesome;
+  color: rgb(187, 228, 154);
+  text-align: center;
+  width: 50px;
+  height: 40px;
+}
+
+.fa:hover {
+  background-color: rgb(187, 228, 154);
+  color: black;
+  transition: all 0.5s;
+}
+
+/* SOCIAL END */
+
+/* QUOTE START */
+.quote-container {
+  height: 30vh;
+  color: rgb(136, 181, 240);
+  background: url(pexels-todd-trapani.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* creates cool parallax scrolling effect */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 2px 2px 2px #500101;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.quote {
+  font-family: cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+.author-link {
+  color: rgb(136, 181, 240);
+}
+.author-link:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+/* QUOTE END */
+
+/* FOOTER START */
+.footer {
+  font-size: 17px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #080808;
+  text-align: center;
+  color: white;
+}
+.footer > a:hover {
+  text-decoration: underline;
+}
+/* FOOTER END */
